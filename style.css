@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header, .second, .third, .fourth, .footer{
+    padding: 5px 120px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header Section*/
+
+.header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo{
+    font-family: "Nerko one", 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #f9faf8;
+}
+
+ul{
+    display: flex;
+    gap: 12px; 
+}
+
+a{
+    color: #f9faf8;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #3882f6;
+}
+
+.hero{
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup{
+    padding: 6px 25px;
+    margin-top: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.signup:hover{
+    box-shadow:2px 2px 2px #777777c3;
+}
+
+.left{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.right{
+    flex-grow: 1;
+    border: #1f2937 solid 2px;
+    height: 350px;
+    min-width: 400px;
+    background-color: #888;
+}
+
+/*end header*/
+
+/*Second section*/
+
+.second{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.card img{
+   border: #3882f6 3px solid;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+/*end second section*/
+
+/*Third section*/
+
+.third{
+    background-color: #e5e7eb;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.third p{
+    font-size: 25px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.third strong{
+    display: block;
+    text-align: end;
+    font-family: "Nerko one";
+    font-size: 36px;
+}
+
+/*End third section*/
+
+/*Fourth section*/
+.fourth{
+    display: flex;
+    flex-direction:column ;
+    padding: 120px;
+    background-color:whitesmoke ;
+}
+
+.callaction{
+    background-color: #3882f6;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+
+.callaction h1{
+    font-size: 25px;
+}
+
+.callaction button{
+    padding:6px 25px;
+    background-color: transparent;
+    color: #f9faf8;
+    font-weight: 700;
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.callaction button:hover{
+    cursor: pointer;
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+/*End fourth section*/
+
+/*Footer*/
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px 0 40px 0;  
+    display: flex;
+    justify-content: center;
+}
+
+
+/*End footer*/
